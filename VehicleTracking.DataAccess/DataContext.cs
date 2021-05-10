@@ -9,9 +9,9 @@ namespace VehicleTracking.DataAccess
 {
     
 
-    public class DbContext : Microsoft.EntityFrameworkCore.DbContext
+    public class DataContext : DbContext
     {
-        public DbContext(DbContextOptions<DbContext> options) : base(options)
+        public DataContext(DbContextOptions<DataContext> options) : base(options)
         {
         }
         //public DbSet<UserType> UserType { get; set; }
@@ -19,6 +19,6 @@ namespace VehicleTracking.DataAccess
         //public DbSet<Vehicle> Vehicle { get; set; }
         //public DbSet<Device> Device { get; set; }
         //public DbSet<Location> Location { get; set; }
-        
+
     }
 }
