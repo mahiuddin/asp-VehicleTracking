@@ -3,13 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleTracking.Api", "VehicleTracking.Api\VehicleTracking.Api.csproj", "{FE01F18E-47D8-4489-8CCE-6F3514CD43BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleTracking.Api", "VehicleTracking.Api\VehicleTracking.Api.csproj", "{FE01F18E-47D8-4489-8CCE-6F3514CD43BD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{A4C6890F-0C4F-4081-BA76-F95474079233}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C3251990-5EA7-4DEE-8664-DD92A4A92D2C}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Applications", "{C6604A21-5E80-463A-B13B-C5230481FF77}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domains", "Domains", "{53206B0C-92F0-4725-82FC-1B7BFF8E8866}"
 EndProject
@@ -19,7 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{FCB226
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentations", "Presentations", "{166EC2E6-6E08-48AD-9E9A-D4CCA52C04FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleTracking.DataAccess", "VehicleTracking.DataAccess\VehicleTracking.DataAccess.csproj", "{34DA7D91-5286-4FA0-B7E5-6D21ADD3ADB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleTracking.DataAccess", "VehicleTracking.DataAccess\VehicleTracking.DataAccess.csproj", "{34DA7D91-5286-4FA0-B7E5-6D21ADD3ADB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
